@@ -13,6 +13,7 @@ public class TestNGProgramDemo1
 	@Test
 	public void LoginCheck() throws Exception
 	{
+		System.out.println("Hi");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mayur.kumshi\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://google.com");

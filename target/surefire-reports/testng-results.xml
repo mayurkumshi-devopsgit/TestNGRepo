@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="comproject.selenium.seleniumMVN011.TestNGProgramDemo1" duration-ms="20375" started-at="2019-07-19T10:54:56Z" finished-at="2019-07-19T10:55:16Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20375" started-at="2019-07-19T10:54:56Z" finished-at="2019-07-19T10:55:16Z">
+      <class name="comproject.selenium.seleniumMVN011.TestNGProgramDemo1">
+        <test-method status="PASS" signature="LoginCheck()[pri:0, instance:comproject.selenium.seleniumMVN011.TestNGProgramDemo1@6a5fc7f7]" name="LoginCheck" duration-ms="20355" started-at="2019-07-19T10:54:56Z" finished-at="2019-07-19T10:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCheck -->
+      </class> <!-- comproject.selenium.seleniumMVN011.TestNGProgramDemo1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- comproject.selenium.seleniumMVN011.TestNGProgramDemo1 -->
+</testng-results>

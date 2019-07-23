@@ -17,7 +17,7 @@ public class TestNGProgramDemo1
 	public void LoginCheck() throws Exception {
 
 		//System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver","chromedriver");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");

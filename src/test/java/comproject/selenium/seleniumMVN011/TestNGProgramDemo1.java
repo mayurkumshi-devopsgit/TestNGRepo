@@ -13,11 +13,11 @@ public class TestNGProgramDemo1
 	WebDriver driver;
 	
 
-
 	@Test
 	public void LoginCheck() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver");
 		driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");

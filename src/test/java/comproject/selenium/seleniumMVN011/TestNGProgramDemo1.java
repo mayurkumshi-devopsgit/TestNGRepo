@@ -4,17 +4,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestNGProgramDemo1 
 {
 
 	WebDriver driver;
+	
+
+
 	@Test
 	public void LoginCheck() throws Exception {
 
-		System.setProperty("webdriver.chrome.driver",
-				"chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");

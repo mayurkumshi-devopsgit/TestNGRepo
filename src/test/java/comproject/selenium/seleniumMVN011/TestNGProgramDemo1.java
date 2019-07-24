@@ -21,6 +21,9 @@ public class TestNGProgramDemo1 {
 		// optionsBeta.setBinary("chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "chromedriver");
 		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("useAutomationExtension", false);
+		options.addArguments("--no-sandbox");
+		options.addArguments("--headless");
 		options.addArguments("start-maximized"); // open Browser in maximized
 													// mode
 		options.addArguments("disable-infobars"); // disabling infobars
@@ -29,7 +32,7 @@ public class TestNGProgramDemo1 {
 		// only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited
 															// resource problems
-		options.addArguments("--no-sandbox"); // Bypass OS security model
+		 // Bypass OS security model
 		driver = new ChromeDriver(options);
 
 		driver.get("https://google.com");

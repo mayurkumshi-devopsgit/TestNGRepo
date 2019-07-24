@@ -15,29 +15,9 @@ public class TestNGProgramDemo1 {
 
 	@Test
 	public void LoginCheck() throws Exception {
-		// ChromeOptions optionsBeta = new ChromeOptions();
-
-		// System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/TestNGJenkins/chromedriver");
-		// optionsBeta.setBinary("chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", "chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.setBinary("/opt/google/chrome/google-chrome");
-		options.setExperimentalOption("useAutomationExtension", false);
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
-		options.addArguments("start-maximized"); // open Browser in maximized
-													// mode
-		options.addArguments("disable-infobars"); // disabling infobars
-		options.addArguments("--disable-extensions"); // disabling extensions
-		// options.addArguments("--disable-gpu"); // applicable to windows os
-		// only
-		options.addArguments("--disable-dev-shm-usage"); // overcome limited
-															// resource problems
-		// Bypass OS security model
-		driver = new ChromeDriver(options);
-
-		//driver.get("https://google.com");
-		//driver = new ChromeDriver();
+		
+		System.setProperty("webdriver.chrome.driver","/opt/google/chrome/google-chrome");
+		driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");
 

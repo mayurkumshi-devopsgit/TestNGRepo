@@ -19,8 +19,9 @@ public class TestNGProgramDemo1 {
 
 		// System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/TestNGJenkins/chromedriver");
 		// optionsBeta.setBinary("chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "chromedriver");
 		ChromeOptions options = new ChromeOptions();
+		options.setBinary("/opt/google/chrome/google-chrome");
 		options.setExperimentalOption("useAutomationExtension", false);
 		options.addArguments("--no-sandbox");
 		options.addArguments("--headless");
@@ -32,7 +33,7 @@ public class TestNGProgramDemo1 {
 		// only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited
 															// resource problems
-		 // Bypass OS security model
+		// Bypass OS security model
 		driver = new ChromeDriver(options);
 
 		driver.get("https://google.com");

@@ -19,7 +19,7 @@ public class TestNGProgramDemo1
 	public void LoginCheck() throws Exception {
 		//ChromeOptions optionsBeta = new ChromeOptions();
 		
-		System.setProperty("webdriver.chrome.driver","chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/TestNGJenkins/chromedriver");
 		//optionsBeta.setBinary("chromedriver.exe");
 
 		driver = new ChromeDriver();
@@ -43,5 +43,6 @@ public class TestNGProgramDemo1
 		driver.close();
 
 	}
+	
 	
 }

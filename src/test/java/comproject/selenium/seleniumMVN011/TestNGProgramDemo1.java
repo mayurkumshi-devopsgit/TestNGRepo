@@ -9,14 +9,17 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestNGProgramDemo1 {
 
 	WebDriver driver;
 
 	@Test
 	public void LoginCheck() throws Exception {
-		
-		System.setProperty("webdriver.chrome.driver","/opt/google/chrome/google-chrome");
+		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/TestNGJenkins/google-chrome-stable_current_x86_64.rpm");
+
 		driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");

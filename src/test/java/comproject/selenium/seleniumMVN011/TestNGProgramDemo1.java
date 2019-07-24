@@ -36,8 +36,8 @@ public class TestNGProgramDemo1 {
 		// Bypass OS security model
 		driver = new ChromeDriver(options);
 
-		driver.get("https://google.com");
-		driver = new ChromeDriver();
+		//driver.get("https://google.com");
+		//driver = new ChromeDriver();
 		System.out.println("Opening the URL");
 		driver.get("http://google.com");
 

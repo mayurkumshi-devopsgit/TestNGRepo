@@ -18,7 +18,7 @@ public class TestNGProgramDemo1 {
 	@Test
 	public void LoginCheck() throws Exception {
 		WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/TestNGJenkins/google-chrome-stable_current_x86_64.rpm");
+		System.setProperty("webdriver.chrome.driver", "chromedriver");
 
 		driver = new ChromeDriver();
 		System.out.println("Opening the URL");

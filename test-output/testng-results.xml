@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20627" started-at="2019-07-24T11:29:07Z" finished-at="2019-07-24T11:29:27Z">
+  <suite name="Default suite" duration-ms="28415" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20627" started-at="2019-07-24T11:29:07Z" finished-at="2019-07-24T11:29:27Z">
+    <test name="Default test" duration-ms="28415" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
       <class name="comproject.selenium.seleniumMVN011.TestNGProgramDemo1">
-        <test-method status="PASS" signature="LoginCheck()[pri:0, instance:comproject.selenium.seleniumMVN011.TestNGProgramDemo1@5bb21b69]" name="LoginCheck" duration-ms="20608" started-at="2019-07-24T11:29:07Z" finished-at="2019-07-24T11:29:27Z">
+        <test-method status="PASS" signature="LoginCheck()[pri:0, instance:comproject.selenium.seleniumMVN011.TestNGProgramDemo1@5bb21b69]" name="LoginCheck" duration-ms="28395" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCheck -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="methods">
+	<test thread-count="5" name="Test" >
+	<parameter name="browsername" value="chrome" />
+	 <parameter name="browsername1" value="firefox" />
+	 <parameter name="browsername2" value="ie" /> 
+	
+		<classes>
+			<class name="comproject.selenium.seleniumMVN011.DifferentBrowsers" />
+		</classes>
+	<!-- </test>
+	 <test thread-count="5" name="Test1">
+	<parameter name="browsername" value="firefox" />
+		<classes>
+			<class name="comproject.selenium.seleniumMVN011.DifferentBrowsers" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Test2">
+	<parameter name="browsername" value="IE" />
+		<classes>
+			<class name="comproject.selenium.seleniumMVN011.DifferentBrowsers" />
+		</classes> -->
+	</test> 
+</suite> 

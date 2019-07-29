@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28415" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
+  <suite name="Default suite" duration-ms="31689" started-at="2019-07-29T10:19:26Z" finished-at="2019-07-29T10:19:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28415" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
-      <class name="comproject.selenium.seleniumMVN011.TestNGProgramDemo1">
-        <test-method status="PASS" signature="LoginCheck()[pri:0, instance:comproject.selenium.seleniumMVN011.TestNGProgramDemo1@5bb21b69]" name="LoginCheck" duration-ms="28395" started-at="2019-07-25T08:49:31Z" finished-at="2019-07-25T08:49:59Z">
+    <test name="Default test" duration-ms="31689" started-at="2019-07-29T10:19:26Z" finished-at="2019-07-29T10:19:57Z">
+      <class name="comproject.selenium.seleniumMVN011.ChromeOptionsDemo">
+        <test-method status="PASS" signature="ChromeoptionsUse()[pri:0, instance:comproject.selenium.seleniumMVN011.ChromeOptionsDemo@58c1670b]" name="ChromeoptionsUse" duration-ms="31668" started-at="2019-07-29T10:19:26Z" finished-at="2019-07-29T10:19:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginCheck -->
-      </class> <!-- comproject.selenium.seleniumMVN011.TestNGProgramDemo1 -->
+        </test-method> <!-- ChromeoptionsUse -->
+      </class> <!-- comproject.selenium.seleniumMVN011.ChromeOptionsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
